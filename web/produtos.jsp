@@ -16,26 +16,10 @@
     </head>
     <body>
 
-        <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="index.jsp">Större</a>
-            </div>
-            <ul class="nav navbar-nav">
-              <li><a href="index.jsp">Ofertas</a></li>
-              <li class="active"><a href="produtos.jsp">Produtos</a></li>
-              <li><a href="sobre.jsp">Sobre</a></li>
-            </ul>
+       <jsp:include page="menu.jsp">
+          <jsp:param name="item" value="produtos" />
+       </jsp:include>
 
-
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="login.jsp">Entrar</a></li>
-
-            </ul>
-
-          </div>
-
-        </nav>
            <div class="container">
 
         <h1>Produtos Större</h1>
