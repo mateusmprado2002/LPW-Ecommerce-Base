@@ -7,17 +7,46 @@ package db;
 
 import java.util.ArrayList;
 import modelos.Produto;
+import modelos.Usuario;
 
 /**
  *
  * @author Desenvolvimento
  */
 public class Mock {
-   private static ArrayList<Produto> lista;
+
 
    public static void makeMock(){
+      createUsers();
+      createProducts();
 
-      if(lista == null){
+   }
+
+   private static void createUsers(){
+      ArrayList<Usuario> lista;
+      if(Usuario.getLista().isEmpty()){
+         lista = Usuario.getLista();
+
+         Usuario admin = new Usuario();
+         admin.setEmail("mateus@storre.com");
+         admin.setSenha("admin");
+         admin.setNome("Mateus Martins");
+         lista.add(admin);
+
+         Usuario gerente = new Usuario();
+         gerente.setEmail("mafer@storre.com");
+         gerente.setSenha("gerente");
+         gerente.setNome("Maria Fernanda");
+         lista.add(gerente);
+
+      }
+   }
+
+   private static void createProducts(){
+    ArrayList<Produto> lista;
+
+
+      if(Produto.getLista().isEmpty()){
          lista = Produto.getLista();
 
          Produto camiseta = new Produto();

@@ -10,6 +10,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import modelos.Usuario;
 
 /**
  *
@@ -33,8 +34,7 @@ public class Login extends HttpServlet {
         String senha = request.getParameter("senha");
 
         //comparar com os dado de mateus@större.comlogin default
-        if(email.equals("mateus@storre.com") &&
-                senha.equals("admin")){
+        if(Usuario.login(email, senha)){
             //salvando sucesso do login na sessão
             request.getSession().setAttribute("logado", true);
 
