@@ -18,4 +18,9 @@ and open the template in the editor.
    background-color: lightskyblue;
    width: 10%;
    text-align: left;
+
+}
+.ofertas img{
+   height: 100px;
+   padding: 5px;
 }
