@@ -16,6 +16,15 @@ public class Produto {
     private float preco;
     private boolean oferta;
     private String imagem;
+    private String requisitos;
+
+   public String getRequisitos() {
+      return requisitos;
+   }
+
+   public void setRequisitos(String requisitos) {
+      this.requisitos = requisitos;
+   }
     private static ArrayList<Produto> lista = new ArrayList();
 
    public String getImagem() {
@@ -58,14 +67,4 @@ public class Produto {
     public void setOferta(boolean oferta) {
         this.oferta = oferta;
     }
-
-   public void setSobre(String camiseta_de_Algodão) {
-      throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-   }
-
-   public void setRequisitos(String requisitos) {
-      throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-   }
-
-
 }

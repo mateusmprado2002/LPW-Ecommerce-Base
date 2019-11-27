@@ -10,7 +10,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Minha Loja</title>
+        <title>STÖRRE</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/ofertas.css">
     </head>
@@ -25,6 +25,7 @@
         <h1>Ofertas Större</h1>
 
         <div class="ofertas">
+           <table>
 
         <%
             for(int i=0; i<Produto.getLista().size(); i++){
@@ -33,9 +34,9 @@
                     if(p.isOferta()){
                        %>
                        <div>
-                          <h5> <%=p.getDescricao()%> </h5>
-                          <p> <%= p.getPreco()%> </p>
-                          <img src="<%=p.getImagem()%>"
+                          <tr><h5> <%=p.getDescricao()%> </h5></tr>
+                       <p> <%= p.getPreco()%> </p>
+                           <img src="<%=p.getImagem()%>"
 
                        </div>
 
@@ -47,6 +48,7 @@
 
         %>
         </div>
+                       </table>
 
         <script src="js/bootstrap.min.js"></script>
        </div>

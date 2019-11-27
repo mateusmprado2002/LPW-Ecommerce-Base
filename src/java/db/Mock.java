@@ -73,6 +73,7 @@ public class Mock {
          jaqueta.setDescricao("Jaqueta");
          jaqueta.setPreco(800.0f);
          jaqueta.setOferta(false);
+         jaqueta.setRequisitos("Jaqueta de Couro");
          jaqueta.setImagem("https://i.pinimg.com/originals/c5/9b/67/c59b67d20b543d6137180f290377b9ce.jpg");
          lista.add(jaqueta);
 
@@ -80,12 +81,14 @@ public class Mock {
          tenis.setDescricao("Tenis");
          tenis.setPreco(400.0f);
          tenis.setOferta(true);
+         tenis.setRequisitos("Tenis Branco");
          tenis.setImagem("https://static.zattini.com.br/produtos/tenis-couro-ellus-street-stripes-masculino/14/E63-2337-014/E63-2337-014_zoom1.jpg");
          lista.add(tenis);
 
          Produto calça = new Produto();
          calça.setDescricao("Calça");
          calça.setPreco(700.0f);
+         calça.setRequisitos("Calça Jeans");
          calça.setOferta(false);
          calça.setImagem("https://assets.xtechcommerce.com/uploads/images/medium/dcc1833544ff47b32b4801a8d98917a0.jpeg");
          lista.add(calça);

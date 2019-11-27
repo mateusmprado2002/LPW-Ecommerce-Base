@@ -11,6 +11,7 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <title>JSP Page</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
    </head>
    <body>
       <table class="table table-striped">
@@ -18,7 +19,11 @@
                    <tr>
                         <th>#</th>
                         <th>Descrição</th>
+                        <th>Foto</th>
                         <th>Valor</th>
+                        <th>Requisitos</th>
+
+
                      </tr>
             </thead>
             <tbody
@@ -30,6 +35,8 @@
                 out.println("<td>"+ (i+1) +" </td>");
                 out.println("<td>"+ p.getDescricao() +" </td>");
                 out.println("<td>"+ p.getPreco() +" </td>");
+                out.println("<td>"+ p.getRequisitos() +" </td>");
+                out.println("<img src="+ p.getImagem());
                 out.println("</tr>");
 
             }
