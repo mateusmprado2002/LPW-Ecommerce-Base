@@ -59,5 +59,13 @@ public class Produto {
         this.oferta = oferta;
     }
 
+   public void setSobre(String camiseta_de_Algodão) {
+      throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+   }
+
+   public void setRequisitos(String requisitos) {
+      throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+   }
+
 
 }

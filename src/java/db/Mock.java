@@ -65,6 +65,7 @@ public class Mock {
          camiseta.setDescricao("Camiseta");
          camiseta.setPreco(500.0f);
          camiseta.setOferta(true);
+         camiseta.setRequisitos("Camiseta de Algodão");
          camiseta.setImagem("https://i.pinimg.com/originals/be/d2/95/bed2957d3514487390ff3c3437b1cf98.jpg");
          lista.add(camiseta);
 

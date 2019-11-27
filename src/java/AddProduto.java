@@ -25,6 +25,8 @@ public class AddProduto extends HttpServlet {
 
         String descricao = request.getParameter("descricao");
 
+        String requisitos = request.getParameter("requisitos");
+
         float preco = Float.parseFloat(
                 request.getParameter("preco")
         );
@@ -32,12 +34,13 @@ public class AddProduto extends HttpServlet {
         Produto p = new Produto();
         p.setDescricao(descricao);
         p.setPreco(preco);
+        p.setRequisitos(requisitos);
 
         Produto.getLista().add(p);
 
         response.sendRedirect("produtos.jsp");
 
     }
-    
+
 
 }
