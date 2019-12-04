@@ -2,6 +2,15 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/Matheus/Documents/GitHub/LPW-Ecommerce-Base/web/produto.jsp</file>
+            <file>file:/C:/Users/Matheus/Documents/GitHub/LPW-Ecommerce-Base/src/java/ItemPedido.java</file>
+            <file>file:/C:/Users/Matheus/Documents/GitHub/LPW-Ecommerce-Base/src/java/Item.java</file>
+            <file>file:/C:/Users/Matheus/Documents/GitHub/LPW-Ecommerce-Base/src/java/Carrinho.java</file>
+            <file>file:/C:/Users/Matheus/Documents/GitHub/LPW-Ecommerce-Base/src/java/modelos/Produto.java</file>
+            <file>file:/C:/Users/Matheus/Documents/GitHub/LPW-Ecommerce-Base/src/java/CarrinhoController.java</file>
+            <file>file:/C:/Users/Matheus/Documents/GitHub/LPW-Ecommerce-Base/web/carrinho.xhtml</file>
+            <file>file:/C:/Users/Matheus/Documents/GitHub/LPW-Ecommerce-Base/src/java/Pedido.java</file>
+        </group>
     </open-files>
 </project-private>

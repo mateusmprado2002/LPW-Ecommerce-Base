@@ -19,13 +19,13 @@
         <form action="Login" method="post">
           <div class="form-group">
             <label for="exampleInputEmail1">Email:</label>
-            <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="insira seu email">
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Senha</label>
-            <input name="senha" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input name="senha" type="password" class="form-control" id="exampleInputPassword1" placeholder="insira sua senha">
           </div>
-          <button type="submit" class="btn btn-default">Submit</button>
+          <button type="submit" class="btn btn-default">Entrar</button>
         </form>
 
         <script src="js/bootstrap.min.js" type="text/javascript"></script>

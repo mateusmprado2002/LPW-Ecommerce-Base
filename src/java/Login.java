@@ -39,7 +39,7 @@ public class Login extends HttpServlet {
             request.getSession().setAttribute("logado", true);
 
             //redirecionar para página de produtos
-            response.sendRedirect("produtos.jsp");
+            response.sendRedirect("shop.jsp");
         }else{
             //redirecionar para a tela de login
             response.sendRedirect("login.jsp");

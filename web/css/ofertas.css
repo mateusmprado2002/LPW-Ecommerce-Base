@@ -9,18 +9,39 @@ and open the template in the editor.
 */
 
 .ofertas{
-   background-color: lightblue;
+   background-color: #6c6e6c;
    text-align: center;
 }
 
 .ofertas div{
    display: inline-block;
-   background-color: lightskyblue;
+   background-color: #6c6e6c;
    width: 10%;
    text-align: left;
 
 }
 .ofertas img{
    height: 100px;
-   padding: 5px;
+   padding: 20px;
+}
+.companyinfo {
+  margin-top: 57px;
+}
+
+.companyinfo h2 {
+  color: #B4B1AB;
+  font-family: abel;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+
+.companyinfo h2  span{
+  color:#FE980F;
+}
+
+.companyinfo p {
+  color: #B3B3AD;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
 }

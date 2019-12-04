@@ -27,7 +27,8 @@ public class AddProduto extends HttpServlet {
 
         String requisitos = request.getParameter("requisitos");
 
-        float preco = Float.parseFloat(
+        double preco;
+        preco = Float.parseFloat(
                 request.getParameter("preco")
         );
 
